@@ -8,6 +8,8 @@
 
 class Account:
 
+
+
     def __init__(self, opening_amount):
         self.balance = opening_amount
 
@@ -42,8 +44,17 @@ class Account:
     def transfer(self, to_account, amount):
         self.withdrawal(amount)
         to_account.deposit(amount)
+
+    def dollartopound_deposit(self, foreign_currency):
+        self.deposit(0.84 * (foreign_currency))
+
+    def dollartopound_withdrawal(self, foreign_currency):
+        self.withdrawal(0.84 * (foreign_currency))
+# Created the above two funtions to convert US dollars into pounds
+
 # Created a function to transfer an amount, first I have inputted the self (the person from which the money is coming), then the count the money is going to and then finally the amount I wish to transfer
 # I have then used the functions I already created to ensure that money is withdrawn from the account that made the transfer and deposited to the account that will receieve the money
+
 
 
 
