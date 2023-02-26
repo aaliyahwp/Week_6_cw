@@ -24,6 +24,20 @@ bart_account.deposit(20)
 lisa_account.withdrawal(40)
 bart_account.withdrawal(-40)
 
+# print(lisa_account.get_balance())
+# print(bart_account.get_balance())
+# adding a second lot of open brackets close brackets as it's a method
+
+# bart_account.get_firstname('Bart')
+# lisa_account.get_firstname('Lisa')
+
+lisa_account.transfer(bart_account, (40))
+# created a balance tranfer by first inputting self(lisa here, then the account I wish to transfer the money to, then the amount I want to transfer within brackets
+bart_account.transfer(lisa_account, (20))
+
+
+
+
 print(lisa_account.get_balance())
 print(bart_account.get_balance())
-# adding a second lot of open brackets close brackets as it's a method
+
