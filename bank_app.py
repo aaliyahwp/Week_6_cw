@@ -28,3 +28,6 @@ print(lisa_account.get_balance())
 print(bart_account.get_balance())
 # adding a second lot of open brackets close brackets as it's a method
 
+
+bart_account.get_firstname('Bart')
+print(bart_account.get_firstname())
