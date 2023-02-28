@@ -35,8 +35,10 @@ class RockPaperScissors: # created a class called rockpaperscissors for the game
             print('Scissors cut paper! You lose!')
         elif self.computer_choice == 'Paper' and self.player_choice == 'Rock':
             print('Paper wraps rock. You lose!')
+
         else:
             print('You have won!')
+
 
     # This allows us to output the two chosen weapons and uses determine winner to play the game
     def play(self):
