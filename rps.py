@@ -37,6 +37,7 @@ class RockPaperScissors: # created a class called rockpaperscissors for the game
             print('Paper wraps rock. You lose!')
 
         else:
+            print(self.player_choice, 'Beats',self.computer_choice)
             print('You have won!')
 
 
@@ -47,6 +48,7 @@ class RockPaperScissors: # created a class called rockpaperscissors for the game
         print("You chose", self.player_choice)
         print("Computer chose", self.computer_choice)
         self.determine_winner()
+
 
 if __name__ == "__main__": # This is the main trick.
 

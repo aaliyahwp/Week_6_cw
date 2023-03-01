@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd7f2deb-c3e6-4069-90dd-cc8b794c1c8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/rps_play.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rps.py" beforeDir="false" afterPath="$PROJECT_DIR$/rps.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.rps_play">
+  <component name="RunManager" selected="Python.rps">
     <configuration name="account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Week_6_cw" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,8 +143,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rps_play" />
         <item itemvalue="Python.rps" />
+        <item itemvalue="Python.rps_play" />
         <item itemvalue="Python.bank_practice" />
         <item itemvalue="Python.bank_app" />
         <item itemvalue="Python.account" />
