@@ -29,11 +29,11 @@ class RockPaperScissors: # created a class called rockpaperscissors for the game
 
         if self.player_choice == self.computer_choice:
             print(f'You have both selected {self.player_choice}. You are tied!')
-        elif self.computer_choice == 'Rock' and self.player_choice == 'Scissors':
+        elif self.computer_choice == 'rock' and self.player_choice == 'scissors':
             print('Rock smashes Scissors, You lose!') # unsure how to print this.
-        elif self.computer_choice == 'Scissors' and self.player_choice == 'Paper':
+        elif self.computer_choice == 'scissors' and self.player_choice == 'paper':
             print('Scissors cut paper! You lose!')
-        elif self.computer_choice == 'Paper' and self.player_choice == 'Rock':
+        elif self.computer_choice == 'paper' and self.player_choice == 'rock':
             print('Paper wraps rock. You lose!')
 
         else:

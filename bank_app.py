@@ -31,14 +31,15 @@ bart_account.withdrawal(-40)
 # bart_account.get_firstname('Bart')
 # lisa_account.get_firstname('Lisa')
 
-lisa_account.transfer(bart_account, (40))
-# created a balance tranfer by first inputting self(lisa here, then the account I wish to transfer the money to, then the amount I want to transfer within brackets
-bart_account.transfer(lisa_account, (20))
+lisa_account.transfer(bart_account, 40)
+# created a balance tranfer by first inputting self(lisa here, then the account I wish to transfer the money to,
+# then the amount I want to transfer within brackets
+bart_account.transfer(lisa_account, 20)
 
 lisa_account.dollartopound_deposit(20)
 # deposited $20 into Lisa's account which using the function is then created converted into pounds
 bart_account.dollartopound_withdrawal(40)
-# Withdrew $40 from Barts account which was then converted into pounds using the function
+# Withdrew $40 from Bart's account which was then converted into pounds using the function
 print(lisa_account.get_balance())
 print(bart_account.get_balance())
 
